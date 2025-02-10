@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 115%;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(127, 5, 241);
+    font-size: 2em;
+}
+
+nav {
+    background-color:#ffffff;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f101a1;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #f4f4f4;
+    font-size: 115%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #050505;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
